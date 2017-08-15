@@ -1,0 +1,202 @@
+
+/*body{
+    font-family: 'playfair_displayregular';
+}*/
+
+a{
+    text-decoration: none;
+    font-size: 14px;
+
+} 
+
+#content a, 
+.article a {
+    color: #b4ad9e;
+    text-transform: uppercase;
+    
+}
+
+
+/*Wrapper*/
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+
+.clearfix{
+    clear: both;
+}
+
+
+
+/*Header*/
+#header{
+    overflow: auto;
+    margin: 66px 0 93px 0;
+ /*  border-bottom: 1px solid; */
+}
+
+#header> a{
+    float: left;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 30px;
+}
+
+
+
+/*Menu*/
+#menu{
+    float: right;
+    list-style-type: none; /* Ja hek pikat te menuja qe jon si unordered list*/
+}
+
+#menu li{
+    display: inline-block;
+    margin-right: 70px;
+}
+
+#menu li:last-child{
+    margin-right: 0;    
+}
+
+/*#menu li:nth-child(3){
+    background: red
+}*/
+
+/*#menu li:nth-child(2n){
+    background: red;
+}*/
+
+/*#menu li:nth-child(2n-1){ ----- ku me nth vlen vec per lista
+    background: blue;
+}*/
+
+
+
+#menu li a {
+    text-transform: uppercase;
+    color: #626262;
+    font-size: 14px;
+}
+
+#menu li a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+/*Banner*/
+#banner{
+    margin-bottom: 95px;
+}
+
+
+
+/*Content*/
+#content{
+    padding: 0 72px
+    margin-bottom: 130px;
+}
+
+/*Article*/
+
+.articles{
+    padding: 0 72px;
+    margin-bottom: 120px;
+    width: 816px;
+}
+
+.article{
+    width: 400px;
+    margin-bottom: 125px;
+}
+
+.article img {
+    margin-bottom: 30px;
+
+}
+
+
+
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+
+
+
+
+
+
+/*Newsletter*/
+#newsletter{
+    background-color: #f0f0f0;   
+    padding: 70px 0;
+    margin-bottom: 100px;  
+}
+.newsletter-inside{
+   margin: 0 auto;
+   width: 500px;
+
+}
+
+
+
+/*Load*/
+
+.load{
+    text-align: center;
+}
+
+.load a{
+   border:  1px solid #626262;
+   padding: 20px 30px;
+   font-size: 20px;
+   color: #626262;
+}
+
+
+
+.load a:hover{
+    background-color: #626262;
+    color:#ffffff;
+
+}
+
+
+/*Footer*/
+#footer{
+    background-color: #f0f0f0;
+    padding: 60px 0;
+
+}
+#footer ul{
+    list-style-type: none;
+}
+
+#footer ul li {
+    display: inline-block;
+    margin-right: 1px;
+}
+
+#footer ul li:last-child{
+    margin-right: 0;
+}
+
+#footer ul li a{
+    color: #000000;
+    font-size: 14px;
+}
+
+
